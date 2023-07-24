@@ -8,7 +8,7 @@ export function Help() {
     <Container>
       <Content className='container'>
         <div className='title'>
-          <h1>Como podemos te <span>te ajudar?</span></h1>
+          <h1>Como podemos <span>te ajudar?</span></h1>
 
           <p>Nossa missão é reparar o que foi lesado e garantir que <strong>seu direito como trabalhador seja respeitado.</strong></p>
         </div>

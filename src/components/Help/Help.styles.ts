@@ -15,13 +15,21 @@ flex-direction: column;
 gap: 20px;
     h1{
         text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 111.5%;
+        span {
+            color: #E0623F;
+
+        }
     }
     p {
-        font-size: 24px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 111.5%; /* 26.76px */
-        max-width: 576px;
+        max-width: 482px;
         margin: 0 auto;
     }
 
@@ -34,7 +42,7 @@ section {
 
     > div {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         flex: 1;
@@ -43,14 +51,28 @@ section {
         max-width: 434px;
         border-radius: 10px;
         border: 1px solid rgba(44, 44, 44, 0.17);
-        padding: 54px 67px;
-        gap: 30px;
+        padding: 54px 30px;
+        gap: 12px;
         p {
             font-size: 18px;
             text-align: left;
         }
     }
-    @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+    .title {
+        align-items: center;
+        h1 {
+            font-size: 20px;
+            max-width: 156px;
+            text-align: center;
+        }
+        p {
+            display: none;
+        }
+    }
+    section {
+
         flex-direction: column;
         > div {
             max-width: 100%;
