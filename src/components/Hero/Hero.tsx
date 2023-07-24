@@ -1,4 +1,4 @@
-import { Container, Content } from './Hero.styles';
+import { Container, Content } from '../Hero/Hero.styles';
 export function Hero() {
   return (
     <Container>
