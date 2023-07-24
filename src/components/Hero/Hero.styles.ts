@@ -69,6 +69,7 @@ export const Content = styled.div`
                 justify-content: space-between;
                 gap:10px;
                 align-items: center;
+                cursor: pointer;
 
                 span {
                     font-size: 20px;
