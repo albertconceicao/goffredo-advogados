@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    background: url('./hero.png') no-repeat center;
+    background: url('./hero-xl.png') no-repeat center;
     background-size: cover;
     min-height: 769px;
 
+    @media (max-width: 1700px) {
+        background: url('./hero.png') no-repeat center top;
+        min-height: 547px;
+        background-size: cover;
+    }
     @media (max-width: 1024px) {
         background: url('./hero-tablet.png') no-repeat center top;
         min-height: 547px;
