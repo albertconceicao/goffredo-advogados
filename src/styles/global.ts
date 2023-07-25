@@ -77,5 +77,22 @@ export default createGlobalStyle`
         margin: 0 auto;
         max-width: 100%;
     }
-}
+  }
+  p {
+    font-size: 18px;
+
+    @media (max-width: 1024px) {
+      font-size: 16px;
+    }
+  }
+  h1 {
+    font-size: 32px;
+
+    @media (max-width: 1024px) {
+      font-size: 24px;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
 `;

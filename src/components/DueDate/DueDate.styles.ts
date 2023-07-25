@@ -77,6 +77,9 @@ export const Content = styled.div`
         height: 99px;
         position: relative;
         left: -27px;
+        @media (min-width: 768px) {
+            display: none;
+        }
     }
     .watch-right {
         width: 45px;
@@ -85,7 +88,9 @@ export const Content = styled.div`
         right: -94%;
         top: -126px;
         filter: blur(3px);
-
+        @media (min-width: 768px) {
+            display: none;
+        }
     }
 
     div {
