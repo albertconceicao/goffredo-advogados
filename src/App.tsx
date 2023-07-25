@@ -1,5 +1,7 @@
 import { AboutUs } from './components/AboutUs';
+import { ContactUs } from './components/ContactUs';
 import { DueDate } from './components/DueDate';
+import { Footer } from './components/Footer';
 import { Help } from './components/Help';
 import { Hero } from './components/Hero';
 import { SocialMedia } from './components/SocialMedia';
@@ -18,6 +20,8 @@ function App() {
     <WhyChoice />
     <AboutUs />
     <SocialMedia />
+    <ContactUs />
+    <Footer />
     </>
   );
 }
