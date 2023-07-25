@@ -117,12 +117,12 @@ h1 {
 .time-content-mobile {
     position: relative;
     top: -737px;
-    margin-bottom: -737px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: -737px;
     margin-left: 40px;
     gap: 48px;
 
