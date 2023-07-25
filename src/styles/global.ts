@@ -78,6 +78,35 @@ export default createGlobalStyle`
         max-width: 100%;
     }
   }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .alternate {
+    min-width: 338px;
+    max-width: 488px;
+    min-height: 70px;
+    background: #0195F7;
+    border: 1px solid #0195F7;
+    border-radius: 10px;
+    padding: 10px 48px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    a {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 111.5%; 
+    }
+    @media (max-width: 768px) {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+  }
   p {
     font-size: 18px;
 

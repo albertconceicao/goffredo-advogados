@@ -2,6 +2,7 @@ import { AboutUs } from './components/AboutUs';
 import { DueDate } from './components/DueDate';
 import { Help } from './components/Help';
 import { Hero } from './components/Hero';
+import { SocialMedia } from './components/SocialMedia';
 import { SubHero } from './components/Subhero';
 import { TimeLine } from './components/TimeLine';
 import { WhyChoice } from './components/WhyChoice';
@@ -16,6 +17,7 @@ function App() {
     <DueDate />
     <WhyChoice />
     <AboutUs />
+    <SocialMedia />
     </>
   );
 }
