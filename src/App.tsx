@@ -1,3 +1,4 @@
+import { DueDate } from './components/DueDate';
 import { Help } from './components/Help';
 import { Hero } from './components/Hero';
 import { SubHero } from './components/Subhero';
@@ -10,6 +11,7 @@ function App() {
     <SubHero />
     <Help />
     <TimeLine />
+    <DueDate />
     </>
   );
 }

@@ -59,6 +59,7 @@ h1 {
 .time-content-web {
     position: relative;
     top: -737px;
+    margin-bottom: -737px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -116,6 +117,7 @@ h1 {
 .time-content-mobile {
     position: relative;
     top: -737px;
+    margin-bottom: -737px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -150,7 +152,7 @@ h1 {
     @media (min-width: 768px) and (max-width: 1024px){
         align-items: flex-end;
     }
-    }
+    
 }
 
 @media (max-width: 1024px) {
@@ -190,6 +192,7 @@ h1 {
     align-items: flex-start;
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: -737px;
     gap: 20px;
     div {
         &:nth-child(even) {
