@@ -6,4 +6,10 @@ background: #2c2c2c;
 display: flex;
 justify-content: center;
 align-items: center;
+
+a {
+    &:hover {
+        text-decoration: underline;
+    }
+}
 `;
