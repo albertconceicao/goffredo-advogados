@@ -44,11 +44,17 @@ iframe {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        min-width: 292px;
     }
-    a:hover {
-        text-decoration: underline;
-    }  
     
+    span {
+        a {
+            padding: 0;
+        }
+        a:hover {
+        text-decoration: underline;
+        }  
+    }
     @media (max-width: 1024px) {
         a {
             padding: 10px 20px;

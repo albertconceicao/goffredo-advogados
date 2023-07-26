@@ -17,8 +17,11 @@ export const Container = styled.section`
     }
     @media (max-width: 768px) {
         background: url('./hero-mobile.png') no-repeat center top;
-        min-height: 672px;
+        min-height: 852px;
         background-size: cover;
+    }
+    @media (min-width:656px) and (max-width:768px) {
+        min-height: 930px;
     }
 `;
 
@@ -65,7 +68,7 @@ export const Content = styled.div`
                 }
             }
             a {
-                min-width: 409px;
+                min-width: 433px;
                 display: flex;
                 justify-content: space-around;
                 gap:10px;
@@ -89,9 +92,7 @@ export const Content = styled.div`
                     }
                     
                 }
-                @media (min-width: 768px) and (max-width: 1024px) {
-                    min-width: 439px;
-                }
+                
             }
 
         }
@@ -129,7 +130,7 @@ export const Content = styled.div`
             margin-top: 300px;
             div > span:first-child {
                 max-width: 341px !important;
-                font-size: 28px;
+                font-size: 26px !important;
             }
             button {
                 justify-content: center !important;

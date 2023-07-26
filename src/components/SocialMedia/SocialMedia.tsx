@@ -16,7 +16,7 @@ export function SocialMedia() {
                 Falo <strong>verdades</strong> que as empresas escondem do trabalhador (e os patrões não gostam muito de mim por conta disso). <br /><br />Acompanhe nosso conteúdo e tire suas dúvidas!
               </p>
 
-                <a href="/" className='alternate button-web'>Acessar meu perfil</a>
+                <a href="https://www.instagram.com/marcosgoffredo/" target='_blank' className='alternate button-web' rel="noreferrer">Acessar meu perfil</a>
             </div>
           </section>
           <div className='button-mobile'>

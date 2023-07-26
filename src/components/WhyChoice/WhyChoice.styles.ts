@@ -22,7 +22,7 @@ h1 {
     }
 
     @media (max-width: 768px) {
-        max-width: 165px;
+        max-width: 173px !important;
     }
     @media (max-width: 1024px) {
         max-width: 225px;

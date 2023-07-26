@@ -22,6 +22,7 @@ h1 {
     color: #2c2c2c;
     @media (max-width:768px) {
         margin-bottom: 0;
+        margin-top: 23px;
     }
 }
 .swiper {
@@ -45,6 +46,7 @@ h1 {
         flex-direction: column;
         min-height: 700px;
         max-width: 94%;
+        margin-top: -35px;
     }
     img {
         max-width: 320px;
@@ -114,6 +116,11 @@ h1 {
 .swiper-pagination-bullet {
     width: 16px;
     height: 16px;
+
+    @media (max-width: 768px) {
+        width: 12px;
+        height: 12px;
+    }
 }
 .swiper-pagination-bullet-active {
     background: #E0623F;
