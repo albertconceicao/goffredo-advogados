@@ -57,7 +57,7 @@ export default createGlobalStyle`
     padding: 52px 90px 102px;
     }
     @media (max-width: 768px) {
-        padding: 30px 27px 40px 27px;
+        padding: 30px 12px 40px 12px;
     }
   }
   .standard {

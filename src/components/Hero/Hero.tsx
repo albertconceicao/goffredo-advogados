@@ -3,7 +3,7 @@ export function Hero() {
   return (
     <Container>
       <Content className='container'>
-        <img className='logo' src="./logo.png" alt="" /> 
+        <div className='logo-div'><img className='logo' src="./logo.png" alt="" /> </div>
         <div className='hero-content'>
           <div className='hero-text'>
             <div><span>Conte com uma advocacia especializada nos <strong>direitos do trabalhador</strong> para defender sua <strong className='sub-strong'>dignidade</strong> e os <strong className='sub-strong'>frutos do seu trabalho.</strong></span></div>

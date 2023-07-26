@@ -47,8 +47,15 @@ h1 {
                 max-width: 303px;
             }
         }
-
+        img {
+            max-width: 60px;
+            max-height: 80px;
+        }
         @media (max-width: 768px) {
+            img {
+                max-width: 40px;
+                max-height: 60px;
+             }
             flex-direction: column;
 
             p {

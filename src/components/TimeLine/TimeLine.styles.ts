@@ -44,7 +44,10 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-
+    
+    @media (min-width: 768px) and (max-width: 1024px){
+        gap: 28px;
+    }
 }
 @media (max-width: 768px) {
     .circle, .line {
@@ -52,11 +55,90 @@ h1 {
         margin-right: auto;
     }
     .line {
-        margin-left: 8px;
+        margin-left: 19px;
+    }
+    .circle {
+        margin-left: 12px;
     }
 }
 
-.time-content-web {
+
+.time-content-mobile {
+    position: relative;
+    top: -760px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: -760px;
+    margin-left: 57px;
+    gap: 48px;
+
+    div {
+        
+        min-width:279px;
+        max-width:279px;
+        max-height:82px;
+    }
+    .right {
+        max-width:279px;
+        max-height:82px;
+        padding: 25px 21px;
+        color: #2c2c2c;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .right {
+        background: url('./time-right-mb.png') no-repeat right;
+    }
+    @media (min-width: 768px) {
+        display: none;
+    }
+    /* @media (min-width: 768px) and (max-width: 1024px){
+        align-items: flex-end;
+    } */
+    
+}
+
+@media (max-width: 768px) {
+    .time-content-web {
+        display: none;
+        display: none ;
+        
+        .left, .right {
+            min-width:279px !important;
+            max-width:279px !important;
+        
+            font-size: 16px;
+        }
+        .right {
+            padding: 35px 30px 30px 69px;
+        }
+        .left {
+            padding: 25px 59px 25px 46px;
+        }
+        .time-content-web {
+            top: -751px;
+        }
+        
+    }
+    
+    
+}
+@media (max-width: 1024px) {
+    .line img {
+        max-width: 51px;
+        max-height: 51px;
+        position: relative;
+        z-index: 1;
+    }
+}
+@media (min-width: 768px) {
+    .time-content-web {
     max-width: 850px;
     position: relative;
     top: -760px;
@@ -92,99 +174,8 @@ h1 {
         background: url('./time-right.png') no-repeat right;
         padding: 35px 30px 30px 88px;
     }
-    @media (max-width: 1024px) {
-            display: none ;
-        
-        .left, .right {
-            min-width:372px;
-            max-width:372px;
-        
-            font-size: 16px;
-        }
-        .right {
-            padding: 35px 30px 30px 69px;
-        }
-        .left {
-            padding: 25px 59px 25px 46px;
-        }
-        .time-content-web {
-            top: -751px;
-        }
-    }
-    @media (min-width: 1024px) {
-        display: flex;
-    }
-}
-.time-content-mobile {
-    position: relative;
-    top: -760px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 1100px;
-    margin: 0 auto;
-    margin-bottom: -760px;
-    margin-left: 40px;
-    gap: 48px;
-
-    div {
-        
-        min-width:279px;
-        max-width:279px;
-        max-height:82px;
-    }
-    .right {
-        max-width:279px;
-        max-height:82px;
-        padding: 25px 21px;
-        color: #2c2c2c;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        gap: 20px;
-
-    }
-    .right {
-        background: url('./time-right-mb.png') no-repeat right;
-    }
-    @media (min-width: 1024px) {
-        display: none;
-    }
-    @media (min-width: 768px) and (max-width: 1024px){
-        align-items: flex-end;
-    }
     
 }
-
-@media (max-width: 1024px) {
-    .line img {
-        max-width: 51px;
-        max-height: 51px;
-    }
-    .time-content-web {
-        display: none;
-        display: none ;
-        
-        .left, .right {
-            min-width:279px !important;
-            max-width:279px !important;
-        
-            font-size: 16px;
-        }
-        .right {
-            padding: 35px 30px 30px 69px;
-        }
-        .left {
-            padding: 25px 59px 25px 46px;
-        }
-        .time-content-web {
-            top: -751px;
-        }
-    }
-    
-    
-}
-@media (min-width: 1024px) {
     .time-content-web {
     position: relative;
     top: -760px;
@@ -220,6 +211,31 @@ h1 {
         background: url('./time-right.png') no-repeat right;
         padding: 35px 30px 30px 88px;
     }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        max-width: 672px;
+        .left, .right {
+            min-width: 299px;
+            max-width:299px;
+            padding: 25px 23px 25px 18px;
+            font-size: 16px;
+            gap: 10px;
+        }
+        .right {
+            padding: 25px 23px 25px 76px;
+            background: url('./time-right-mb.png') no-repeat right !important;
+        }
+        .left {
+            padding: 25px 23px 25px 12px;
+            background: url('./time-left-mb.png') no-repeat left !important;
+        }
+        .time-content-web {
+            top: -751px;
+        }
+    }
+    @media (min-width: 1024px) {
+        display: flex;
+    }
+    
     
 }
     

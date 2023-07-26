@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    background: url('./hero-xl.png') no-repeat center;
+    background: url('./hero-xl.png') no-repeat center top;
     background-size: cover;
-    min-height: 769px;
+    min-height: 869px;
 
-    @media (max-width: 1700px) {
+    @media (max-width: 1750px) {
         background: url('./hero.png') no-repeat center top;
         min-height: 547px;
         background-size: cover;
@@ -23,6 +23,7 @@ export const Container = styled.section`
     @media (min-width:656px) and (max-width:768px) {
         min-height: 930px;
     }
+    
 `;
 
 export const Content = styled.div`
@@ -121,7 +122,11 @@ export const Content = styled.div`
         }
     }
     @media (max-width: 768px) {
-        
+        .logo-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .hero-text {
             @media (min-width: 533px) and (max-width:768px) {
                 margin-top: 71%;
@@ -146,6 +151,9 @@ export const Content = styled.div`
         .standard img {
             display: none;
         }
+    }
+    @media (min-width: 768px) {
+       
     }
  
 `;

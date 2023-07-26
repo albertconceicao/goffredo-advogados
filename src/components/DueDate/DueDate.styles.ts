@@ -96,6 +96,7 @@ export const Content = styled.div`
         height: 99px;
         position: relative;
         left: -27px;
+        top: 57px;
         @media (min-width: 768px) {
             display: none;
         }

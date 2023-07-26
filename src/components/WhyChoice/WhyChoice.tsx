@@ -12,7 +12,7 @@ export function WhyChoice() {
         <div className="choice-content">
           <div className="choice-flex">
             <div>
-              <img src="./1.svg" alt="" />
+              <img src="./one.png" alt="" />
               <p>
                 <strong>Atendemos apenas trabalhadores </strong>
                 
@@ -20,7 +20,7 @@ export function WhyChoice() {
               </p>
             </div>
             <div>
-              <img src="./2.svg" alt="" />
+              <img src="./two.png" alt="" />
               <p>
                 Mais de 20 anos de experiência 
                 na advocacia trabalhista
@@ -29,13 +29,13 @@ export function WhyChoice() {
           </div>
           <div className="choice-flex">
             <div>
-              <img src="./3.svg" alt="" />
+              <img src="./three.png" alt="" />
               <p>
                 Acompanhamento pessoal  e individualizado
               </p>
             </div>
             <div>
-              <img src="./4.svg" alt="" />
+              <img src="./four.png" alt="" />
               <p>
                 Te deixo atualizado da situação 
                 do processo <strong>sem precisar me perguntar</strong>
