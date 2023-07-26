@@ -10,7 +10,7 @@ export function TimeLine() {
           <div className='circle'></div>
           
           <div className='line'>
-            <div><img src="./number-1.png" /></div>
+            <div><img src="./number-1.png" alt=""/></div>
             <div><img src="./number-2.png" alt="" /></div>
             <div><img src="./number-3.png" alt="" /></div>
             <div><img src="./number-4.png" alt="" /></div>

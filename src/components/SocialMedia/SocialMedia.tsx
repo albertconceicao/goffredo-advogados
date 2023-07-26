@@ -17,13 +17,13 @@ export function SocialMedia() {
               </p>
 
               <button className='alternate button-web' type='button'>
-                <a href="">Acessar meu perfil</a>
+                <a href="/">Acessar meu perfil</a>
               </button>
             </div>
           </section>
           <div className='button-mobile'>
             <button className='alternate' type='button'>
-              <a href="">Acessar meu perfil</a>
+              <a href="/">Acessar meu perfil</a>
             </button>
           </div>
         </Content>

@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 import { Container, Content } from './Help.styles';
 
 
