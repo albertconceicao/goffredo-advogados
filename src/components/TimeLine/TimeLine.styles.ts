@@ -188,10 +188,10 @@ h1 {
     .time-content-web {
     position: relative;
     top: -760px;
+    max-width: 850px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 1100px;
     margin: 0 auto;
     margin-bottom: -760px;
     gap: 20px;
