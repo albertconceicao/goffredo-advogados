@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-min-height: 1213px;
+min-height: 1059px;
 background: #fff;
 `;
 export const Content = styled.div`
@@ -57,8 +57,9 @@ h1 {
 }
 
 .time-content-web {
+    max-width: 850px;
     position: relative;
-    top: -737px;
+    top: -760px;
     margin-bottom: -737px;
     display: flex;
     flex-direction: column;
@@ -116,13 +117,13 @@ h1 {
 }
 .time-content-mobile {
     position: relative;
-    top: -737px;
+    top: -760px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     max-width: 1100px;
     margin: 0 auto;
-    margin-bottom: -737px;
+    margin-bottom: -760px;
     margin-left: 40px;
     gap: 48px;
 
@@ -186,13 +187,13 @@ h1 {
 @media (min-width: 1024px) {
     .time-content-web {
     position: relative;
-    top: -737px;
+    top: -760px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     max-width: 1100px;
     margin: 0 auto;
-    margin-bottom: -737px;
+    margin-bottom: -760px;
     gap: 20px;
     div {
         &:nth-child(even) {

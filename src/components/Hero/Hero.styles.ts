@@ -23,9 +23,7 @@ export const Container = styled.section`
 `;
 
 export const Content = styled.div`
-    .logo {
-
-    }
+    
     .hero-content {
         display: flex;
         align-items: flex-start;
@@ -53,6 +51,9 @@ export const Content = styled.div`
             strong {
                color: #E0623F;
             }
+            .sub-strong {
+                color: #C3B8A8;
+            }
             p {
                font-size: 30px;
                font-style: normal;
@@ -63,10 +64,10 @@ export const Content = styled.div`
                     font-size: 24px;
                 }
             }
-            button {
+            a {
                 min-width: 488px;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 gap:10px;
                 align-items: center;
                 cursor: pointer;

@@ -9,7 +9,7 @@ export function DueDate() {
             <h1>ATENÇÃO! <br /> <span>O seu prazo pode <strong>estar acabando!</strong></span></h1>
             <p>Existe um tempo certo para dar entrada em um processo trabalhista. Você pode receber menos ou até <strong>perder seu direito.</strong></p>
 
-            <button className='standard'><span>Fale com especialista agora</span><img src="./whatsapp.svg" alt="" /></button>
+            <a className='standard' href='/'><span>Fale comigo pelo WhatsApp</span><img src="./whatsapp.svg" alt="" /></a>
           </div>
           <div>
             <img src="./watch-desktop.png" alt="" />
@@ -21,7 +21,7 @@ export function DueDate() {
               <h1>ATENÇÃO! <br /> <span>O seu prazo pode <strong>estar acabando!</strong></span></h1>
               <p>Existe um tempo certo para dar entrada em um processo trabalhista. Você pode receber menos ou até <strong>perder seu direito.</strong></p>
 
-              <button className='standard'><span>Fale com especialista agora</span><img src="./whatsapp.svg" alt="" /></button>
+              <a className='standard' href='/'><span>Fale comigo pelo WhatsApp</span><img src="./whatsapp.svg" alt="" /></a>
           </div>
             <img className='watch-right' src="./watch-desktop.png" alt="" />
         </section>

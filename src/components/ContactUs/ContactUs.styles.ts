@@ -12,7 +12,6 @@ justify-content: space-between;
 align-items: center;
 gap: 147px;
 
-
 @media (max-width: 1024px) {
     gap: 90px
 }
@@ -24,6 +23,7 @@ gap: 147px;
 iframe {
     max-width: 450px;
     max-height: 461px;
+    border-radius: 14px;
 
     @media (max-width:1024px) {
         max-width: 319px;
@@ -40,8 +40,17 @@ iframe {
     gap: 30px;
     max-width: 467px;
     
+    .standard {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    a:hover {
+        text-decoration: underline;
+    }  
+    
     @media (max-width: 1024px) {
-        button {
+        a {
             padding: 10px 20px;
         }
     }
@@ -51,10 +60,13 @@ iframe {
 }
 @media (max-width: 768px) {
     .button-mobile {
-        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
     }
     .button-web {
-        display: none;
+        display: none !important;
     }
 }
 `;

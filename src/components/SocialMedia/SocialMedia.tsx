@@ -16,15 +16,11 @@ export function SocialMedia() {
                 Falo <strong>verdades</strong> que as empresas escondem do trabalhador (e os patrões não gostam muito de mim por conta disso). <br /><br />Acompanhe nosso conteúdo e tire suas dúvidas!
               </p>
 
-              <button className='alternate button-web' type='button'>
-                <a href="/">Acessar meu perfil</a>
-              </button>
+                <a href="/" className='alternate button-web'>Acessar meu perfil</a>
             </div>
           </section>
           <div className='button-mobile'>
-            <button className='alternate' type='button'>
-              <a href="/">Acessar meu perfil</a>
-            </button>
+            <a href="/" className='alternate'>Acessar meu perfil</a>
           </div>
         </Content>
       </SocialContent>

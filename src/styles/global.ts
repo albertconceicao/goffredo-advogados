@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-
 export default createGlobalStyle`
 
   @font-face {
@@ -48,7 +47,8 @@ export default createGlobalStyle`
   body {
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
-    font: 400 16px 'Gantari Bold', sans-serif;
+    font-size: 16px;
+    font-family: Gantari, sans-serif;
   }
   .container {
     padding: 80px 111px 102px;
@@ -83,7 +83,7 @@ export default createGlobalStyle`
     color: #fff;
   }
   .alternate {
-    min-width: 338px;
+    min-width: 299px;
     max-width: 488px;
     min-height: 70px;
     background: #0195F7;

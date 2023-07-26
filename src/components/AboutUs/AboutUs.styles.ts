@@ -1,10 +1,20 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-background: url(''), #F4EEE8;
+background: url('./about-us-bg.png'), #F4EEE8;
+background-size: cover;
 min-height: 571px;
+
+@media (max-width: 768px) {
+    background: url('./about-us-bg-mb.png'), #F4EEE8;
+    background-size: cover;
+}
 `;
 export const Content = styled.div`
+
+@media (min-width: 768px) and (max-width:1024px){
+    padding: 52px 27px 102px;
+}
 h1 {
     margin-bottom: 90px 0 100px 0;
     text-align: center;
@@ -34,6 +44,7 @@ h1 {
     @media (max-width: 768px) {
         flex-direction: column;
         min-height: 700px;
+        max-width: 94%;
     }
     img {
         max-width: 320px;

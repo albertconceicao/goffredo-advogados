@@ -53,9 +53,9 @@ export const Content = styled.div`
             
         }
     
-        button {
+        a {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             gap: 20px;
             align-items: center;
         }
