@@ -65,13 +65,32 @@ export const Content = styled.div`
                 font-size: 20px;
             }
         }
+        
     }
-
+    
     @media (max-width: 768px) {
         display: none;
     }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        > div:first-child {
+            max-width: 347px;
+        }
+        img {
+            max-width: 308px;
+            max-height: 370px;
+        }
+        a {
+            position: relative;
+            z-index: 1;
+        }
+    }
 }
 .mobile {
+    a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     .watch-left {
         width: 82px;
         height: 99px;

@@ -65,7 +65,7 @@ export const Content = styled.div`
                 }
             }
             a {
-                min-width: 488px;
+                min-width: 409px;
                 display: flex;
                 justify-content: space-around;
                 gap:10px;
@@ -81,6 +81,16 @@ export const Content = styled.div`
                 img {
                     width: 20px;
                     height: 20px;
+                }
+                @media (max-width: 768px) {
+                    min-width: 330px;
+                    span {
+                        font-size: 18px;
+                    }
+                    
+                }
+                @media (min-width: 768px) and (max-width: 1024px) {
+                    min-width: 439px;
                 }
             }
 
@@ -128,6 +138,12 @@ export const Content = styled.div`
         }
         .hero-text p {
             font-size: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .standard img {
+            display: none;
         }
     }
  

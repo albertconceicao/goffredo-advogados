@@ -61,7 +61,7 @@ export default createGlobalStyle`
     }
   }
   .standard {
-    max-width: 488px;
+    max-width: 409px;
     min-height: 70px;
     background: linear-gradient(180deg, #E0623F 0%, #D95629 100%);
     border: 1px solid #D95629;
@@ -76,6 +76,16 @@ export default createGlobalStyle`
     @media (max-width: 768px) {
         margin: 0 auto;
         max-width: 100%;
+        padding: 10px 25px;
+        img {
+          display: none;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      min-width: 439px;
+      img {
+        display: none;
+      }
     }
   }
   a {
