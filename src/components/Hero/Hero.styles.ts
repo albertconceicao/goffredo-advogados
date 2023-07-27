@@ -155,5 +155,10 @@ export const Content = styled.div`
     @media (min-width: 768px) {
        
     }
+    @media (min-width: 1750px) {
+        .logo-div {
+            margin-bottom: 88px;
+        }
+    }
  
 `;
