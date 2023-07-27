@@ -159,6 +159,9 @@ export const Content = styled.div`
         .logo-div {
             margin-bottom: 88px;
         }
+        .hero-text {
+            gap: 50px;
+        }
     }
  
 `;
