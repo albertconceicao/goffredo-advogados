@@ -53,7 +53,7 @@ export function AboutUs() {
                 <p>
                 Advogada especializada e pós graduada em Direito do Trabalho, <strong>concentrada no atendimento aos empregados</strong>. 
 
-                Seu propósito é <strong>lutar pela justiça no ambiente de trabalho</strong>, buscando soluções colaborativas e representando seus clientes com dedicação e ética. <br /> <br />Ao longo de sua trajetória, tem sido uma aliada de muitos trabalhadores na conquista de seus direitos, contribuindo para um ambiente laboral mais resolutivo e harmonioso.
+                Seu propósito é <strong>lutar pela justiça no ambiente de trabalho</strong>, buscando soluções colaborativas e representando seus clientes com dedicação e ética. <br /> <br />Ao longo de sua trajetória, tem sido uma <strong>aliada de muitos trabalhadores na conquista de seus direitos</strong>, contribuindo para um ambiente laboral mais <strong>resolutivo e harmonioso</strong>.
                 <br /><br />
                 </p>
               </div>
