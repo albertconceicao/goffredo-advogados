@@ -7,6 +7,7 @@ import { Hero } from './components/Hero';
 import { SocialMedia } from './components/SocialMedia';
 import { SubHero } from './components/Subhero';
 import { TimeLine } from './components/TimeLine';
+import { WhatsApp } from './components/WhatsApp';
 import { WhyChoice } from './components/WhyChoice';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <SocialMedia />
     <ContactUs />
     <Footer />
+    <WhatsApp />
     </>
   );
 }
