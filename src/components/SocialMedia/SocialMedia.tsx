@@ -6,9 +6,9 @@ export function SocialMedia() {
       <SocialContent>
         <Content className='container'>
           <section>
-            <img src="./instagram.png" alt="" />
+            <img src="./instagram.png" alt="Logo Instagram" />
             <div>
-              <img src="./follow-image.png" alt="" />
+              <img src="./follow-image.png" alt="Logo de Instagram" />
 
               <h1>Nos siga no instagram!</h1>
 
@@ -20,7 +20,7 @@ export function SocialMedia() {
             </div>
           </section>
           <div className='button-mobile'>
-            <a href="/" className='alternate'>Acessar meu perfil</a>
+            <a href="https://www.instagram.com/marcosgoffredo/" className='alternate' target='_blank' rel="noreferrer">Acessar meu perfil</a>
           </div>
         </Content>
       </SocialContent>

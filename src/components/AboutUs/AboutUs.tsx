@@ -32,7 +32,7 @@ export function AboutUs() {
         >
           <SwiperSlide>
             <div className="swiper-content">
-              <img src="./about-marcos.png" alt="" />
+              <img src="./about-marcos.png" alt="Foto do Advogado Marcos" />
               <div>
                 <h2>Marcos Goffredo <br /><span>Advogado trabalhista</span></h2>
 
@@ -46,7 +46,7 @@ export function AboutUs() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper-content">
-              <img src="./janaina.png" alt="" />
+              <img src="./janaina.png" alt="Foto da Advogada Janaína" />
               <div>
                 <h2>Janaína <br /><span>Advogada trabalhista.</span></h2>
 

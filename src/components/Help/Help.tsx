@@ -13,13 +13,13 @@ export function Help() {
 
         <section>
           <div>
-            <img src="./goffredo-logo.png" alt="" />
+            <img src="./goffredo-logo.png" alt="Logo da Goffredo Advogados" />
             <div>
               <p>Defendemos o <strong>trabalhador</strong> de abusos cometidos pela empresa.</p>
             </div>
           </div>
           <div>
-            <img src="./goffredo-logo.png" alt="" />
+            <img src="./goffredo-logo.png" alt="Logo da Goffredo Advogados" />
             <div>
               <p>Ajudamos você a cobrar na Justiça tudo aquilo que a empresa <strong>não te pagou</strong></p>
             </div>
@@ -27,13 +27,13 @@ export function Help() {
         </section>
         <section>
           <div>
-            <img src="./goffredo-logo.png" alt="" />
+            <img src="./goffredo-logo.png" alt="Logo da Goffredo Advogados" />
             <div>
               <p>Te ajudamos recuperar sua dignidade e receber indenizações e benefícios em caso de <strong>acidente de trabalho e doença ocupacional</strong></p>
             </div>
           </div>
           <div>
-            <img src="./goffredo-logo.png" alt="" />
+            <img src="./goffredo-logo.png" alt="Logo da Goffredo Advogados" />
             <div>
               <p>
               Você pode ter <strong>direito a ser indenizado</strong> e a receber um <strong>benefício vitalício</strong> em casos como bursite, síndrome do manguito rotador, hérnia de disco, epicondilite, lesão do tipo SLAP, síndrome do túnel do carpo, entre outras <strong>doenças ocupacionais</strong>.

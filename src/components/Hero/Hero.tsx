@@ -10,12 +10,9 @@ export function Hero() {
 
             <p>Defendemos os direitos dos trabalhadores de forma simples, humanizada e personalizada.</p>
 
-            <a className='standard' href='/'><span>Fale comigo pelo WhatsApp </span><img src="./whatsapp.svg" alt="" /></a>
+            <a className='standard' href='https://wa.me/5511976716676?text=Olá, desejo saber mais sobre seus serviços de Advocacia que vi pelo site.' target='_blank' rel="noreferrer"><span>Fale comigo pelo WhatsApp </span><img src="./whatsapp.svg" alt="" /></a>
           </div>
-          {/* <div className='hero-client'>
-            <img src="./marcos.png" alt="" />
-
-          </div> */}
+          
         </div>
       </Content>
     </Container>
